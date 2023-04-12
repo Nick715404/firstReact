@@ -1,13 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Fcomponent from './Fcomponent';
+import Ccomponent from './Ccomponent';
+import Footer from './Footer'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Ccomponent name = 'Bogdan' />
+
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Web developer blog
         </p>
         <a
           className="App-link"
@@ -17,7 +22,9 @@ function App() {
         >
           Learn React
         </a>
+        <Footer />
       </header>
+      
     </div>
   );
 }
